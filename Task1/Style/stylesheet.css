@@ -1,0 +1,77 @@
+/* General Reset */
+body, h1, h2, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: #333;
+  text-align: center;
+}
+
+body {
+  background: #f4f4f4;
+  line-height: 1.6;
+}
+
+header {
+  background: #0377c5;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header img#logo {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background: #0377c5;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+}
+
+ul {
+  text-align: left;
+  padding-left: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section img {
+  width: auto;
+  max-width: 1000px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+} 
